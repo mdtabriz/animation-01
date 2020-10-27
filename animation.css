@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	margin-top: 150px;
+	position: relative;
+}
+.box-01 {
+	width: 150px;
+	height: 150px;
+	background-image: url(img/img-01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	border-radius: 35%;
+	top: 0;
+	left: 0;
+	animation: box-01 6s 3;
+	box-shadow: 0 0 20px;
+}
+.box-02 {
+	width: 150px;
+	height: 150px;
+	background-image: url(img/img-02.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 35%;
+	animation: box-02 6s 3;
+	box-shadow: 0 0 20px;
+}
+.box-03 {
+	width: 150px;
+	height: 150px;
+	background-image: url(img/img-03.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-radius: 35%;
+	animation: box-03 6s 3;
+	box-shadow: 0 0 20px;
+}
+.box-04 {
+	width: 150px;
+	height: 150px;
+	background-image: url(img/img-04.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-radius: 35%;
+	animation: box-04 6s 3;
+	box-shadow: 0 0 20px;
+}
+@keyframes box-01 {
+	0% {
+		top: 0;
+		left: 0;
+	}
+	25% {
+		top: 0;
+		left: 250px;
+	}
+	50% {
+		top: 250px;
+		left: 250px;
+	}
+	75% {
+		top: 250px;
+		left: 0;
+	}
+	100% {
+		top: 0;
+		left: 0;
+	}	
+}
+
+@keyframes box-02 {
+	0% {
+		top: 0;
+		left: 250px;
+	}
+	25% {
+		top: 250px;
+		left: 250px;
+	}
+	50% {
+		top: 250px;
+		left: 0;
+	}
+	75% {
+		top: 0;
+		left: 0;
+	}
+	100% {
+		top: 0;
+		left: 250px;
+	}	
+}
+
+@keyframes box-03 {
+	0% {
+		top: 250px;
+		left: 250px;
+	}
+	25% {
+		top: 250px;
+		left: 0;
+	}
+	50% {
+		top: 0;
+		left: 0;
+	}
+	75% {
+		top: 0;
+		left: 250px;
+	}
+	100% {
+		top: 250px;
+		left: 250px;
+	}	
+}
+
+@keyframes box-04 {
+	0% {
+		top: 250px;
+		left: 0;
+	}
+	25% {
+		top: 0;
+		left: 0;
+	}
+	50% {
+		top: 0;
+		left: 250px;
+	}
+	75% {
+		top: 250px;
+		left: 250px;
+	}
+	100% {
+		top: 250px;
+		left: 0;
+	}	
+}
+
